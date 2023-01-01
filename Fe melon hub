@@ -1,0 +1,665 @@
+print("steal this and ill fucking rape your mom bitch")
+
+print("to those who just wanna use it, ignore line 1.")
+
+print ("TO CUSTOMIZE THE GUI FOR PERSONAL/COMMERCIAL USE, DM ME ON DISCORD.")
+
+local MelHub = Instance.new("ScreenGui")
+
+local StartUp = Instance.new("Frame")
+
+local Close = Instance.new("TextButton")
+
+local ClosGrad = Instance.new("UIGradient")
+
+local Credits = Instance.new("TextButton")
+
+local CredGrad = Instance.new("UIGradient")
+
+local DiscordInvite = Instance.new("TextButton")
+
+local DiscordGrad = Instance.new("UIGradient")
+
+local VersionChecker = Instance.new("TextButton")
+
+local VersionGrad = Instance.new("UIGradient")
+
+local ScriptRunner = Instance.new("TextButton")
+
+local ScriptGrad = Instance.new("UIGradient")
+
+local Title = Instance.new("TextLabel")
+
+local TitleGrad = Instance.new("UIGradient")
+
+local UIGradient = Instance.new("UIGradient")
+
+MelHub.Name = "MelHub"
+
+MelHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MelHub.ResetOnSpawn = false
+
+StartUp.Name = "StartUp"
+
+StartUp.Parent = MelHub
+
+StartUp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+StartUp.Position = UDim2.new(0.372020602, 0, 0.168674707, 0)
+
+StartUp.Size = UDim2.new(0, 353, 0, 329)
+
+StartUp.Active = true
+
+StartUp.Draggable = true
+
+Close.Name = "Close"
+
+Close.Parent = StartUp
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.BorderSizePixel = 0
+
+Close.Position = UDim2.new(0.0368271954, 0, 0.793313086, 0)
+
+Close.Size = UDim2.new(0, 326, 0, 50)
+
+Close.Font = Enum.Font.Jura
+
+Close.Text = "Close"
+
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Close.TextSize = 33.000
+
+Close.MouseButton1Down:connect(function()
+
+StartUp:Destroy()
+
+end)
+
+ClosGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+ClosGrad.Rotation = 90
+
+ClosGrad.Name = "ClosGrad"
+
+ClosGrad.Parent = Close
+
+Credits.Name = "Credits"
+
+Credits.Parent = StartUp
+
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Credits.BorderSizePixel = 0
+
+Credits.Position = UDim2.new(0.0368271954, 0, 0.641337395, 0)
+
+Credits.Size = UDim2.new(0, 326, 0, 50)
+
+Credits.Font = Enum.Font.Jura
+
+Credits.Text = "Credits"
+
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Credits.TextSize = 33.000
+
+Credits.MouseButton1Down:connect(function()
+
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local Credits = Instance.new("ScreenGui")
+
+local CreditHub = Instance.new("Frame")
+
+local Cred1 = Instance.new("TextLabel")
+
+local Cred2 = Instance.new("TextLabel")
+
+local Cred3 = Instance.new("TextLabel")
+
+local Close = Instance.new("TextButton")
+
+local CreditGrad = Instance.new("UIGradient")
+
+--Properties:
+
+Credits.Name = "Credits"
+
+Credits.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+CreditHub.Name = "CreditHub"
+
+CreditHub.Parent = Credits
+
+CreditHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+CreditHub.BorderSizePixel = 0
+
+CreditHub.Position = UDim2.new(0.355129659, 0, 0.196787149, 0)
+
+CreditHub.Size = UDim2.new(0, 315, 0, 286)
+
+CreditHub.Active = true
+
+CreditHub.Draggable = true
+
+Cred1.Name = "Cred1"
+
+Cred1.Parent = CreditHub
+
+Cred1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Cred1.BackgroundTransparency = 1.000
+
+Cred1.BorderSizePixel = 0
+
+Cred1.Position = UDim2.new(0.181295976, 0, 0.0701547414, 0)
+
+Cred1.Size = UDim2.new(0, 200, 0, 50)
+
+Cred1.Font = Enum.Font.SourceSans
+
+Cred1.Text = "You! - Without the support of my subscribers, none of this wouldve been possible"
+
+Cred1.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Cred1.TextScaled = true
+
+Cred1.TextSize = 60.000
+
+Cred1.TextWrapped = true
+
+Cred2.Name = "Cred2"
+
+Cred2.Parent = CreditHub
+
+Cred2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Cred2.BackgroundTransparency = 1.000
+
+Cred2.BorderSizePixel = 0
+
+Cred2.Position = UDim2.new(0.181295976, 0, 0.342882037, 0)
+
+Cred2.Size = UDim2.new(0, 200, 0, 50)
+
+Cred2.Font = Enum.Font.SourceSans
+
+Cred2.Text = "Me - I didnt get any help while making this, this was also converted and made by me"
+
+Cred2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Cred2.TextScaled = true
+
+Cred2.TextSize = 60.000
+
+Cred2.TextWrapped = true
+
+Cred3.Name = "Cred3"
+
+Cred3.Parent = CreditHub
+
+Cred3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Cred3.BackgroundTransparency = 1.000
+
+Cred3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+Cred3.BorderSizePixel = 0
+
+Cred3.Position = UDim2.new(0.181295976, 0, 0.657567382, 0)
+
+Cred3.Size = UDim2.new(0, 200, 0, 50)
+
+Cred3.Font = Enum.Font.SourceSans
+
+Cred3.Text = "Scripters - Thanks to CKBackup, Shackluster, etc i was able to convert these for my hub"
+
+Cred3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Cred3.TextScaled = true
+
+Cred3.TextSize = 60.000
+
+Cred3.TextWrapped = true
+
+Close.Name = "Close"
+
+Close.Parent = CreditHub
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.BackgroundTransparency = 1.000
+
+Close.BorderSizePixel = 0
+
+Close.Position = UDim2.new(0.181295916, 0, 0.860139847, 0)
+
+Close.Size = UDim2.new(0, 200, 0, 33)
+
+Close.Font = Enum.Font.SourceSans
+
+Close.Text = "Close"
+
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Close.TextSize = 29.000
+
+Close.MouseButton1Down:connect(function()
+
+CreditHub:Destroy()
+
+end)
+
+CreditGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+CreditGrad.Rotation = 90
+
+CreditGrad.Name = "CreditGrad"
+
+CreditGrad.Parent = CreditHub
+
+end)
+
+CredGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+CredGrad.Rotation = 90
+
+CredGrad.Name = "CredGrad"
+
+CredGrad.Parent = Credits
+
+DiscordInvite.Name = "DiscordInvite"
+
+DiscordInvite.Parent = StartUp
+
+DiscordInvite.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+DiscordInvite.BorderSizePixel = 0
+
+DiscordInvite.Position = UDim2.new(0.0368271954, 0, 0.489361703, 0)
+
+DiscordInvite.Size = UDim2.new(0, 326, 0, 50)
+
+DiscordInvite.Font = Enum.Font.Jura
+
+DiscordInvite.Text = "Discord Invite"
+
+DiscordInvite.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+DiscordInvite.TextSize = 33.000
+
+DiscordInvite.MouseButton1Down:connect(function()
+
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local InviteGUI = Instance.new("ScreenGui")
+
+local DiscordLink = Instance.new("Frame")
+
+local DiscordText = Instance.new("TextLabel")
+
+local Copy = Instance.new("TextButton")
+
+local Discord = Instance.new("ImageLabel")
+
+local Gradient = Instance.new("UIGradient")
+
+--Properties:
+
+InviteGUI.Name = "InviteGUI"
+
+InviteGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+DiscordLink.Name = "DiscordLink"
+
+DiscordLink.Parent = InviteGUI
+
+DiscordLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+DiscordLink.Position = UDim2.new(0.3720406, 0, 0.257028133, 0)
+
+DiscordLink.Size = UDim2.new(0, 227, 0, 242)
+
+DiscordLink.Active = true
+
+DiscordLink.Draggable = true
+
+DiscordText.Name = "DiscordText"
+
+DiscordText.Parent = DiscordLink
+
+DiscordText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+DiscordText.BackgroundTransparency = 1.000
+
+DiscordText.BorderSizePixel = 0
+
+DiscordText.Position = UDim2.new(0.0572687238, 0, 0.0743801668, 0)
+
+DiscordText.Size = UDim2.new(0, 200, 0, 50)
+
+DiscordText.Font = Enum.Font.Highway
+
+DiscordText.Text = "Discord.gg/k7TqKXQNTZ"
+
+DiscordText.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+DiscordText.TextScaled = true
+
+DiscordText.TextSize = 14.000
+
+DiscordText.TextWrapped = true
+
+Copy.Name = "Copy"
+
+Copy.Parent = DiscordLink
+
+Copy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Copy.BackgroundTransparency = 1.000
+
+Copy.BorderSizePixel = 0
+
+Copy.Position = UDim2.new(0.0572687238, 0, 0.396694213, 0)
+
+Copy.Size = UDim2.new(0, 200, 0, 50)
+
+Copy.Font = Enum.Font.Highway
+
+Copy.Text = "Copy"
+
+Copy.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Copy.TextSize = 29.000
+
+Copy.TextWrapped = true
+
+Copy.MouseButton1Down:connect(function()
+
+setclipboard("Discord.gg/k7TqKXQNTZ")
+
+DiscordLink:Destroy()
+
+end)
+
+Discord.Name = "Discord"
+
+Discord.Parent = DiscordLink
+
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Discord.BackgroundTransparency = 1.000
+
+Discord.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+Discord.BorderSizePixel = 0
+
+Discord.Position = UDim2.new(0.378854632, 0, 0.719008267, 0)
+
+Discord.Size = UDim2.new(0, 53, 0, 52)
+
+Discord.Image = "http://www.roblox.com/asset/?id=8387379647"
+
+Discord.ScaleType = Enum.ScaleType.Fit
+
+Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+Gradient.Rotation = 90
+
+Gradient.Name = "Gradient"
+
+Gradient.Parent = DiscordLink
+
+end)
+
+DiscordGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+DiscordGrad.Rotation = 90
+
+DiscordGrad.Name = "DiscordGrad"
+
+DiscordGrad.Parent = DiscordInvite
+
+VersionChecker.Name = "VersionChecker"
+
+VersionChecker.Parent = StartUp
+
+VersionChecker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+VersionChecker.BorderSizePixel = 0
+
+VersionChecker.Position = UDim2.new(0.0368271954, 0, 0.337386012, 0)
+
+VersionChecker.Size = UDim2.new(0, 326, 0, 50)
+
+VersionChecker.Font = Enum.Font.Jura
+
+VersionChecker.Text = "Version Checker"
+
+VersionChecker.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+VersionChecker.TextSize = 33.000
+
+VersionChecker.MouseButton1Down:connect(function()
+
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local VersionGUI = Instance.new("ScreenGui")
+
+local VersChecker = Instance.new("Frame")
+
+local VersionText = Instance.new("TextLabel")
+
+local UpdatedText = Instance.new("TextLabel")
+
+local FrameDestroyer = Instance.new("TextLabel")
+
+local VersGrad = Instance.new("UIGradient")
+
+--Properties:
+
+VersionGUI.Name = "VersionGUI"
+
+VersionGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+VersChecker.Name = "VersChecker"
+
+VersChecker.Parent = VersionGUI
+
+VersChecker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+VersChecker.BorderSizePixel = 0
+
+VersChecker.Position = UDim2.new(0.361894041, 0, 0.267068267, 0)
+
+VersChecker.Size = UDim2.new(0, 244, 0, 231)
+
+VersChecker.Active = true
+
+VersChecker.Draggable = true
+
+VersionText.Name = "VersionText"
+
+VersionText.Parent = VersChecker
+
+VersionText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+VersionText.BackgroundTransparency = 1.000
+
+VersionText.BorderSizePixel = 0
+
+VersionText.Position = UDim2.new(0.0901639313, 0, 0.0649350658, 0)
+
+VersionText.Size = UDim2.new(0, 200, 0, 50)
+
+VersionText.Font = Enum.Font.SourceSans
+
+VersionText.Text = "Version 1"
+
+VersionText.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+VersionText.TextScaled = true
+
+VersionText.TextSize = 14.000
+
+VersionText.TextWrapped = true
+
+UpdatedText.Name = "UpdatedText"
+
+UpdatedText.Parent = VersChecker
+
+UpdatedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+UpdatedText.BackgroundTransparency = 1.000
+
+UpdatedText.BorderSizePixel = 0
+
+UpdatedText.Position = UDim2.new(0.0901639313, 0, 0.341991335, 0)
+
+UpdatedText.Size = UDim2.new(0, 200, 0, 50)
+
+UpdatedText.Font = Enum.Font.SourceSans
+
+UpdatedText.Text = "Updated!"
+
+UpdatedText.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+UpdatedText.TextSize = 37.000
+
+UpdatedText.TextWrapped = true
+
+FrameDestroyer.Name = "FrameDestroyer"
+
+FrameDestroyer.Parent = VersChecker
+
+FrameDestroyer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+FrameDestroyer.BackgroundTransparency = 1.000
+
+FrameDestroyer.BorderSizePixel = 0
+
+FrameDestroyer.Position = UDim2.new(0.0901639313, 0, 0.640692592, 0)
+
+FrameDestroyer.Size = UDim2.new(0, 200, 0, 50)
+
+FrameDestroyer.Font = Enum.Font.SourceSans
+
+FrameDestroyer.Text = "This will disappear in a few seconds..."
+
+FrameDestroyer.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+FrameDestroyer.TextScaled = true
+
+FrameDestroyer.TextSize = 14.000
+
+FrameDestroyer.TextWrapped = true
+
+VersGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+VersGrad.Rotation = 90
+
+VersGrad.Name = "VersGrad"
+
+VersGrad.Parent = VersChecker
+
+wait(3)
+
+VersChecker:Destroy()
+
+end)
+
+VersionGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+VersionGrad.Rotation = 90
+
+VersionGrad.Name = "VersionGrad"
+
+VersionGrad.Parent = VersionChecker
+
+ScriptRunner.Name = "ScriptRunner"
+
+ScriptRunner.Parent = StartUp
+
+ScriptRunner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+ScriptRunner.BorderSizePixel = 0
+
+ScriptRunner.Position = UDim2.new(0.0368271954, 0, 0.185410321, 0)
+
+ScriptRunner.Size = UDim2.new(0, 326, 0, 50)
+
+ScriptRunner.Font = Enum.Font.Jura
+
+ScriptRunner.Text = "Run Script"
+
+ScriptRunner.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+ScriptRunner.TextSize = 33.000
+
+ScriptRunner.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BonzaiBazooka/Melon-Hub-REBORN/main/MHR_GUI.txt"))()
+
+end)
+
+  
+
+ScriptGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+ScriptGrad.Rotation = 90
+
+ScriptGrad.Name = "ScriptGrad"
+
+ScriptGrad.Parent = ScriptRunner
+
+Title.Name = "Title"
+
+Title.Parent = StartUp
+
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Title.BorderSizePixel = 0
+
+Title.Position = UDim2.new(0.0368271954, 0, 0.0334346518, 0)
+
+Title.Size = UDim2.new(0, 326, 0, 50)
+
+Title.Font = Enum.Font.SourceSans
+
+Title.Text = "Melon Hub Reborn"
+
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Title.TextSize = 37.000
+
+TitleGrad.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(81, 81, 82)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 162, 165))}
+
+TitleGrad.Rotation = 90
+
+TitleGrad.Name = "TitleGrad"
+
+TitleGrad.Parent = Title
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 47, 49)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(99, 95, 98))}
+
+UIGradient.Rotation = 90
+
+UIGradient.Parent = StartUp
